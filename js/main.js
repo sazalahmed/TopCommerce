@@ -869,12 +869,22 @@ $(function () {
     new WOW().init();
 
 
-    // product filter
+    // Product Filter
     $(".wsus__sidebar_wizard_filter").on("click", function () {
         $(".wsus__sidebar_wizard_filter").toggleClass("show");
     });
     $(".wsus__sidebar_wizard_filter").on("click", function () {
         $(".wsus__sidebar_wizard_area").toggleClass("show");
+    });
+
+
+    // Pregress Bar
+    $(document).ready(function () {
+        $('#bar1').barfiller({});
+        $('#bar2').barfiller({});
+        $('#bar3').barfiller({});
+        $('#bar4').barfiller({});
+        $('#bar5').barfiller({});
     });
 
 
