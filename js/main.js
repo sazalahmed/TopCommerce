@@ -865,11 +865,12 @@ $(function () {
         });
     });
 
+
     //=====WOW ANIMATION========
     new WOW().init();
 
 
-    // Product Filter
+    //======SIDEBAR PRODUCT FILTER======
     $(".wsus__sidebar_wizard_filter").on("click", function () {
         $(".wsus__sidebar_wizard_filter").toggleClass("show");
     });

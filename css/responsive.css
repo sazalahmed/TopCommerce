@@ -40,7 +40,6 @@
     /*===================================
         HOME PAGE 1 START
     ===================================*/
-
     .wsus__product_area {
         margin-left: 50px;
     }
@@ -79,7 +78,6 @@
     /*===================================
         HOME PAGE 3 START
     ===================================*/
-
     .wsus__banner_3_img {
         width: 525px;
         height: 470px;
@@ -93,7 +91,6 @@
     /*===================================
         HOME PAGE 4 START
     ===================================*/
-
     .wsus__banner_4 {
         padding: 130px 52px 105px 52px;
     }
@@ -155,7 +152,6 @@
     /*======================================
         LOGIN, REG, FORGOT PASS START
     ======================================*/
-
     .wsus__login_right {
         margin: 80px 35px 80px 12px;
     }
@@ -167,6 +163,9 @@
     /*======================================
         LOGIN, REG, FORGOT PASS END
     ======================================*/
+    .wsus__dashboard_contant .wsus__product_item .img {
+        height: 290px;
+    }
 
 }
 
@@ -690,6 +689,10 @@
 
     .vendor_details_text .text .title {
         font-size: 24px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_item .img {
+        height: 245px;
     }
 
     /* new css end */
@@ -1339,6 +1342,50 @@
         font-size: 24px;
     }
 
+
+
+
+
+
+
+
+
+    .wsus__dashboard_contant_btn .common_btn,
+    .wsus__dashboard_profile_delete .common_btn {
+        margin-top: 10px;
+    }
+
+    .wsus__invoice_address p {
+        width: 100%;
+    }
+
+    .wsus__invoice_heading h2 {
+        font-size: 34px;
+    }
+
+    .wsus__invoice_heading::after {
+        top: 16px;
+        height: 7px;
+    }
+
+    .wsus__invoice_top,
+    .wsus__invoice_table {
+        padding: 40px 40px 0px 40px;
+    }
+
+    .wsus__invoice_description {
+        padding: 20px 40px 0px 40px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_item .img {
+        height: 275px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_single_review .text {
+        margin-top: 15px;
+        width: 100%;
+    }
+
     /* new css end */
 
 
@@ -1986,9 +2033,65 @@
         display: block;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+    .wsus__dashboard_contant_btn .common_btn,
+    .wsus__dashboard_profile_delete .common_btn {
+        margin-top: 10px;
+    }
+
+    .wsus__dashboard_profile_info li span {
+        width: 100%;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__invoice_top {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .wsus__invoice_heading {
+        display: none;
+    }
+
+    .wsus__invoice_description,
+    .wsus__invoice_table {
+        padding: 50px 30px 0px 30px;
+    }
+
+    .wsus__invoice_address p {
+        width: 100%;
+    }
+
+    .wsus__invoice_date {
+        text-align: start;
+        margin-top: 25px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_item .img {
+        height: 415px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_single_review .text {
+        margin-top: 15px;
+        width: 100%;
+    }
+
     /* new css end */
-
-
 
 
 
@@ -2683,15 +2786,6 @@
     /*===================================
         PRODUCT PAGE START
     ===================================*/
-
-    .wsus__product_filter {
-        /* margin-top: 70px; */
-    }
-
-    .wsus__product_filter ul {
-        /* margin-top: 20px; */
-    }
-
     .wsus__product_page .wsus__product_item .text ul li:nth-child(2) a {
         padding: 8px 15px 9px 15px;
     }
@@ -2917,6 +3011,54 @@
         display: block;
     }
 
+    .wsus__dashboard_contant_btn .common_btn,
+    .wsus__dashboard_profile_delete .common_btn {
+        margin-top: 10px;
+    }
+
+    .wsus__dashboard_profile_info li span {
+        width: 100%;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__dash_order_table .details {
+        min-width: 250px;
+    }
+
+    .wsus__invoice_top {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .wsus__invoice_heading {
+        display: none;
+    }
+
+    .wsus__invoice_description,
+    .wsus__invoice_table {
+        padding: 50px 30px 0px 30px;
+    }
+
+    .wsus__invoice_address p {
+        width: 100%;
+    }
+
+    .wsus__invoice_description h4 {
+        margin-bottom: 15px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_item .img {
+        height: 225px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_single_review .text {
+        margin-top: 15px;
+        width: 100%;
+    }
 
     /* new css end */
 
@@ -3994,8 +4136,53 @@
         display: block;
     }
 
-    /* new css end */
+    .wsus__dashboard_contant_btn .common_btn,
+    .wsus__dashboard_profile_delete .common_btn {
+        margin-top: 10px;
+    }
 
+    .wsus__dashboard_profile_info li span {
+        width: 100%;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__dash_order_table .details {
+        min-width: 250px;
+    }
+
+    .wsus__invoice_top {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .wsus__invoice_heading {
+        display: none;
+    }
+
+    .wsus__invoice_description,
+    .wsus__invoice_table {
+        padding: 50px 30px 0px 30px;
+    }
+
+    .wsus__invoice_address p {
+        width: 100%;
+    }
+
+    .wsus__invoice_date {
+        text-align: start;
+        margin-top: 25px;
+    }
+
+    .wsus__dashboard_contant .wsus__product_single_review .text {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    /* new css end */
 
 
 

@@ -8341,16 +8341,6 @@ button {
   color: var(--colorPrimary);
 }
 
-.quantity {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  border: 1px solid rgba(52, 168, 83, 0.15);
-  width: 90px;
-}
-
 .quantity .number {
   color: var(--colorBlack);
 }
@@ -10469,6 +10459,8 @@ TRACKING ORDER END
 
 .wsus__dashboard_password_change {
   padding: 35px 30px 50px 30px;
+  border-top: 1px solid rgba(30, 30, 47, 0.10);
+  margin-top: 35px;
 }
 
 .wsus__dashboard_password_change form {
@@ -10517,6 +10509,7 @@ TRACKING ORDER END
   padding: 20px 20px 20px 30px;
   border-bottom: none;
   border-top: 1px solid #1e1e2f1a;
+  vertical-align: middle;
 }
 
 .wsus__dash_order_table .details {
@@ -10604,10 +10597,10 @@ TRACKING ORDER END
 .wsus__invoice_heading::after {
   position: absolute;
   content: "";
-  top: 20px;
+  top: 25px;
   left: -60px;
-  width: 680px;
-  height: 20px;
+  width: 1000%;
+  height: 10px;
   background: rgba(23, 23, 24, 0.10);
 }
 
@@ -10629,7 +10622,7 @@ TRACKING ORDER END
 }
 
 .wsus__invoice_address p {
-  width: 55%;
+  width: 100%;
   line-height: 26px;
   margin-top: 12px;
 }
@@ -10666,14 +10659,9 @@ TRACKING ORDER END
   border-left: 1px solid rgba(30, 30, 47, 0.10);
 }
 
-.wsus__invoice_table .table tr {
-  display: flex;
-}
-
 .wsus__invoice_table .table tr th {
-  font-size: 15px;
-  font-weight: 500;
-  padding: 8px 0px 8px 0px !important;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: capitalize;
   border-top: none !important;
   background: var(--colorBlack);
@@ -10682,40 +10670,10 @@ TRACKING ORDER END
 
 .wsus__invoice_table .table tr th,
 .wsus__invoice_table .table tr td {
-  padding: 20px 0px 20px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-top: none;
+  padding: 10px;
   border-bottom: 1px solid rgba(30, 30, 47, 0.10);
-}
-
-.wsus__invoice_table .serial {
-  min-width: 100px;
-  width: 10%;
-  text-align: center;
-}
-
-.wsus__invoice_table .description {
-  min-width: 240px;
-  width: 55%;
-}
-
-.wsus__invoice_table .price {
-  min-width: 100px;
-  width: 10%;
-}
-
-.wsus__invoice_table .quantity {
-  min-width: 120px;
-  width: 15%;
-  text-align: center;
-}
-
-.wsus__invoice_table .total {
-  min-width: 120px;
-  width: 10%;
-  text-align: center;
+  border-right: 1px solid rgba(52, 168, 83, 0.15);
+  min-width: 60px;
 }
 
 .wsus__invoice_final_total {
@@ -10766,6 +10724,14 @@ TRACKING ORDER END
 }
 
 /* dashboard invoice end */
+
+
+
+
+
+
+
+
 
 
 /*=================================
