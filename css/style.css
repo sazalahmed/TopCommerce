@@ -8193,10 +8193,13 @@ button {
 }
 
 .wsus__cart_area table tr .price,
-.wsus__cart_area table tr .discount,
 .wsus__cart_area table tr .total {
-  min-width: 100px;
+  min-width: 145px;
   max-width: 150px;
+}
+
+.wsus__cart_area table tr .discount {
+  min-width: 130px;
 }
 
 .wsus__cart_area table tr .action {
@@ -8222,6 +8225,10 @@ button {
   -moz-transform: all linear .3s;
   -ms-transform: all linear .3s;
   -o-transform: all linear .3s;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .wsus__cart_area table tr .description h3:hover a {
@@ -8355,11 +8362,13 @@ button {
   background: #eee;
   cursor: pointer;
   font-size: 18px;
+  display: inline-block;
 }
 
 .wsus__cart_area table tr td .common_btn {
   background: var(--colorPrimary);
   color: var(--colorWhite);
+  padding: 5px 15px;
 }
 
 /*============================
@@ -8931,7 +8940,7 @@ button {
 }
 
 .wsus__blog_details_header ul {
-  gap: 25px;
+  gap: 10px 25px;
 }
 
 .wsus__blog_details_header ul li {
@@ -9610,6 +9619,7 @@ TRACKING ORDER START
   margin-top: 25px;
   background: var(--colorPrimary);
   color: var(--colorWhite);
+  text-align: center;
 }
 
 .track_pro_table {
@@ -10724,15 +10734,6 @@ TRACKING ORDER END
 }
 
 /* dashboard invoice end */
-
-
-
-
-
-
-
-
-
 
 /*=================================
   DASHBOARD END
