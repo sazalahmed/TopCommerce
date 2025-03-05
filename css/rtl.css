@@ -1450,10 +1450,53 @@
     margin-right: 65px;
 }
 
+.wsus__dashboard_sidebar_menu li a .img {
+    margin-right: 0;
+    margin-left: 10px;
+}
 
+.wsus__dashboard_profile .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
 
+.wsus__dashboard_profile_avatar .img label {
+    right: auto;
+    left: -11px;
+}
 
+.wsus__dash_order_table .details .rating span {
+    margin-left: 0;
+    margin-right: 5px;
+}
 
+.wsus__dash_order_table .table tr th {
+    padding: 20px 30px 20px 0px !important;
+}
+
+.wsus__invoice_heading h2,
+.wsus__invoice_final_total_right h6,
+.wsus__invoice_final_total_right h5 {
+    text-align: left;
+}
+
+.details_color li.active::after {
+    transform: translate(-50%, -50%) rotateY(-180deg);
+    -webkit-transform: translate(-50%, -50%) rotateY(-180deg);
+    -moz-transform: translate(-50%, -50%) rotateY(-180deg);
+    -ms-transform: translate(-50%, -50%) rotateY(-180deg);
+    -o-transform: translate(-50%, -50%) rotateY(-180deg);
+}
+
+.wsus__section_heading h5::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__section_heading h5 {
+    padding-left: 0;
+    padding-right: 25px;
+}
 
 /*================================
     RTL CSS END
@@ -1804,6 +1847,10 @@
         margin-right: 20px;
     }
 
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1934,6 +1981,10 @@
 
     .single_comment_reply {
         margin-right: 20px;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
     }
 
 }
@@ -2077,6 +2128,10 @@
 
     .single_comment_reply {
         margin-right: 20px;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
     }
 }
 

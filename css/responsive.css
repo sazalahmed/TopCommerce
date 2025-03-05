@@ -821,10 +821,6 @@
         margin-top: 10px;
     }
 
-    .wsus__modal_filter {
-        margin-top: 20px;
-    }
-
     .wsus__modal_text .details {
         margin-top: 20px;
     }
@@ -1487,10 +1483,6 @@
 
     .wsus__modal_text p {
         margin-top: 10px;
-    }
-
-    .wsus__modal_filter {
-        margin-top: 15px;
     }
 
     .wsus__modal_text .details {
@@ -2224,7 +2216,7 @@
         padding-left: 0;
         padding-right: 0px;
         padding-bottom: 20px;
-        padding-top: 80px;
+        padding-top: 25px;
     }
 
     .wsus__product_slider_details .wsus__section_heading .title {
@@ -4175,6 +4167,10 @@
     .wsus__dashboard_contant .wsus__product_single_review .text {
         margin-top: 15px;
         width: 100%;
+    }
+
+    .wsus__product_slider_details .wsus__modal_filter .wishlist {
+        margin-top: 20px;
     }
 
     /* new css end */

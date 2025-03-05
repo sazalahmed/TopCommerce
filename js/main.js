@@ -157,6 +157,16 @@ $(function () {
         arrows: false,
         verticalSwiping: true,
         asNavFor: '.slider-navOne',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    verticalSwiping: false,
+                    vertical: false,
+                }
+            }
+        ]
     });
 
     $('.slider-navOne').slick({
@@ -169,6 +179,15 @@ $(function () {
         focusOnSelect: true,
         vertical: true,
         centerPadding: 0,
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 0,
+                }
+            }
+        ]
     });
 
 
