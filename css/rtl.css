@@ -251,7 +251,10 @@
 
 .wsus__modal_filter .add_cart {
     margin-left: 0;
-    margin-right: 10px;
+}
+
+.wsus__modal_filter .details_buy_btn {
+    margin-left: 10px !important;
 }
 
 .wsus__modal_filter .add_cart img {
@@ -1498,10 +1501,18 @@
     padding-right: 25px;
 }
 
+.details_store_area p span {
+    border-left: 0;
+    border-right: 1px solid #04121E;
+    margin-left: 0;
+    margin-right: 7px;
+    padding-left: 0;
+    padding-right: 7px;
+}
+
 /*================================
     RTL CSS END
 ================================*/
-
 
 
 /*================================
