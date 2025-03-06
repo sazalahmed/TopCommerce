@@ -4423,6 +4423,8 @@ button {
   background: var(--colorSecondary);
 }
 
+
+
 .wsus__main_menu_3 .wsus__menu_2_browse {
   background: #185B4B;
 }
@@ -4441,7 +4443,7 @@ button {
 }
 
 .wsus__main_menu_3 .wsus__menu_giftcard a {
-  color: var(--colorWhite);
+  color: var(--colorWhite) !important;
 }
 
 .wsus__main_menu_3 .wsus__menu_giftcard a:hover {
@@ -4450,10 +4452,6 @@ button {
 
 .wsus__main_menu_3 .wsus__menu_giftcard a img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(7500%) hue-rotate(199deg) brightness(104%) contrast(102%);
-}
-
-.wsus__main_menu_3 .wsus__menu_giftcard a:hover img {
-  filter: brightness(0) saturate(100%) invert(6%) sepia(36%) saturate(1108%) hue-rotate(167deg) brightness(97%) contrast(101%);
 }
 
 .wsus__main_menu_3 .wsus__droap_menu_2 li a:hover,
@@ -5468,7 +5466,7 @@ button {
 /* topbar 4 start */
 
 .wsus__topbar_4 {
-  background: #d6daef;
+  /* background: #d6daef; */
 }
 
 .wsus__topbar_4 .wsus__header_left li a {
@@ -5504,7 +5502,6 @@ button {
 
 
 /* main menu 4 start */
-
 .wsus__main_menu_4 {
   background: var(--colorDarkBlue);
 }
@@ -5526,16 +5523,8 @@ button {
   color: var(--colorWhite);
 }
 
-.wsus__main_menu_4 .wsus__menu_giftcard a:hover {
-  color: var(--colorPrimary);
-}
-
 .wsus__main_menu_4 .wsus__menu_giftcard a img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7481%) hue-rotate(149deg) brightness(108%) contrast(105%);
-}
-
-.wsus__main_menu_4 .wsus__menu_giftcard :Hover img {
-  filter: brightness(0) saturate(100%) invert(20%) sepia(98%) saturate(6760%) hue-rotate(239deg) brightness(91%) contrast(94%);
 }
 
 /* main menu 4 end */
